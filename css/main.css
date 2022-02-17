@@ -13,7 +13,7 @@ a {
 body {
     background: url('../images/bg.svg') no-repeat;
     background-size: cover;
-    padding-bottom: 500px;
+    padding-bottom: 60%;
 }
 
 #left{
@@ -32,35 +32,44 @@ body {
 
 nav{
     padding: 50px;
+    font-size: large;
+    font-weight: bold;
 }
 
 nav ul{
     list-style-type: none;
-    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
 }
 
 nav ul li {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
 }
 
-nav ul li a{
+nav ul li a{  
     color:#000;
-    padding: 0 30px;
+    padding: 0 20px;
 }
-
 
 #contain-logo, #logo{
-    float: right;
+    float: right;      
     background-color: #6f7c90;
     height: 20%;
     width:120px;
     border: 1px;
     border-style: hidden;
     border-radius: 8px;
-    }
-    
+}
+
 #logo{
     padding: 10px 10px 10px 10px;
+}
+
+#logo:hover{
+    background-color: #434b57;
 }
 
 .container{
@@ -79,4 +88,16 @@ h1 {
 
 #jumb-p{
     text-align: justify;
+}
+
+#contact{
+    margin:auto;
+    position: absolute;
+    padding-left: 45%;
+    bottom: 0px;
+}
+
+.mb-4{
+    padding-left: 10%;
+    padding-right: 10%;
 }
