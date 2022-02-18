@@ -17,6 +17,9 @@
 <body>
     <img src="images/left.svg" id="left">
     <img src="images/right.svg" id="right">
+    
+    
+    <!--NAVBAR-->
     <nav>
         <div id="contain-logo">
             <a href="index.html">
@@ -24,15 +27,19 @@
             </a>
         </div>
         <ul>
-            <li><a href="locations.html">Locations</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="locations.html">Locations</a><i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="redwood.html">Redwood House</a>
+                </div>
+            </div>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-    <div class="foot">
-        <footer>
-            <p id="contact">info@unitedsupportservices.co.uk<br></p>
-        </footer>
-    </div>
+    <!--NAVBAR-->
+
 </body>
 </html>

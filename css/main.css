@@ -54,6 +54,39 @@ nav ul li a{
     padding: 0 20px;
 }
 
+.dropbtn a{
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+}
+
+.dropdown .dropbtn{
+    border-style: hidden;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    color: #000;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 #contain-logo, #logo{
     float: right;      
     background-color: #6f7c90;
@@ -100,4 +133,15 @@ h1 {
 .mb-4{
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#container-carousel{
+    border: 1px solid #b0b0b1;
+    margin: auto;
+    width: 33%;
+    border-radius: 8px;
+}
+
+#redwood-building:hover{
+    background-color: #b0b0b1;
 }
